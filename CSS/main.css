@@ -1,0 +1,168 @@
+/**** Global Styling ****/
+
+html,
+body {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+}
+
+.row {
+    /* border: 1px solid lightgreen; */
+    padding: 20px 0;
+}
+
+.row:first-child {
+    padding-top: 0;
+}
+
+.row:last-child {
+    padding-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
+
+/* Main text styling */
+
+.description-text {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    color: #111;
+    font-weight: bolder;
+}
+
+.read-more:hover {
+    opacity: .7;
+    color: #111;
+    cursor: pointer;
+}
+
+.top-recipes ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-recipes li {
+    padding: 20px 0;
+}
+
+.top-recipes li a {
+    color: #111;
+}
+
+.top-recipes li a:hover {
+    opacity: .7;
+    color: #111;
+    cursor: pointer;
+}
+
+
+/**** Navbar styling ****/
+
+.nav-section {
+    padding: 0;
+}
+
+#brandName {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link {
+    padding: 15px;
+    color: #111;
+    font-weight: bold;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+.active {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+#navbar-custom {
+    background-color: #fff;
+    color: #111;
+}
+
+.fas.fa-hamburger {
+    font-size: 30px;
+    color: burlywood;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    outline: 1px solid burlywood;
+}
+
+
+/**** Image styling ****/
+
+.img-fluid.section-img {
+    flex-grow: 1;
+}
+
+.title-img {
+    color: #111;
+}
+
+.title-img:hover,
+.title-img:focus {
+    opacity: .7;
+    color: #111;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* Modal & Form styling */
+
+.mail-list {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    border-top: 1px solid #111;
+}
+
+.star {
+    color: red;
+}
+
+form {
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+
+/* Footer Styling */
+
+.footer {
+    border-top: 1px solid #777;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.email-link {
+    color: #333;
+}
+
+.fab {
+    font-size: 20px;
+    margin-right: 10px;
+}
